@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="roundimageview" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerRadius">5dp</item>
+        <item name="cornerSizeBottomLeft">150dp</item>
+        <item name="cornerSizeBottomRight">150dp</item>
+    </style>
+</resources>
