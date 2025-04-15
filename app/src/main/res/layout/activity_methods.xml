@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Methods"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/lgreen"
+        android:id="@+id/method">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Agriculture Methods"
+            android:textColor="@color/black"
+            android:padding="20sp"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imagemethod"
+        android:layout_alignBottom="@id/method"
+        android:layout_marginBottom="-99dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/agrimethods"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:layout_alignBottom="@id/imagemethod"
+        android:layout_marginBottom="-80sp"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:text="There are many different agriculture methods used around the world, each with its own advantages and disadvantages. Here's a brief overview of some common methods:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:layout_alignBottom="@id/text1"
+        android:textSize="17sp"
+        android:layout_marginBottom="-100sp"
+        android:textColor="@color/black"
+        android:text="Traditional methods:
+
+Subsistence farming: This is a small-scale farming method where farmers grow crops and raise livestock primarily for their own family's consumption. It's often used in developing countries."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:layout_alignBottom="@id/text2"
+        android:layout_marginBottom="-70sp"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:text="Arable farming: This method focuses on growing crops on large fields. It's a common method for producing grains like wheat, rice, and corn."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text4"
+        android:textSize="17sp"
+        android:text="Livestock farming: This method raises animals for meat, milk, eggs, or wool. There are different types of livestock farming, such as dairy farming, poultry farming, and pig farming."
+        android:layout_alignBottom="@id/text3"
+        android:textColor="@color/black"
+        android:layout_marginBottom="-100sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Monoculture: This method involves planting a single crop over a large area. It's efficient and can produce high yields, but it can also deplete soil nutrients and make crops more susceptible to pests and diseases."
+        android:layout_alignBottom="@+id/text4"
+        android:textSize="17sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="-100sp"/>
+
+</RelativeLayout>
